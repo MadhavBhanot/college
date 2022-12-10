@@ -377,6 +377,10 @@ section{
     .header {background:none;
     position: absolute;}
     
+    .content{
+        padding:0;
+        margin:0;
+    
     
     
     
