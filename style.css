@@ -46,6 +46,7 @@ section{
     padding:2rem 7%;
 }
 
+#small-logo{display: none;}
 .heading{
     text-align: center;
     color:#fff;
@@ -64,6 +65,7 @@ section{
     margin-top: 1rem;
     display: inline-block;
     padding:.9rem 3rem;
+    font-size: 1.7rem;
     font-size: 1.7rem;
     color:#fff;
     background: var(--main-color);
@@ -92,7 +94,8 @@ section{
 
 .header .navbar a{
     margin:0 1rem;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
+    padding: 20px;
     color:#fff;
 }
 
@@ -120,16 +123,20 @@ section{
 
 .home{
     min-height: 100vh;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     background:url(bg.jpg) no-repeat;
+    
     background-size:cover;
     background-position:center;
 
 }
 
 .home .content{
-    max-width: 60rem;
+    display: flex;
+    justify-content: space-between;
+
+  
     margin-top: 30em;
 }
 
@@ -346,5 +353,31 @@ section{
     html{
         font-size: 50%;
     }
+     .btn{
+        font-size: 15px;
+        padding: 0;
+        padding-left:0.2rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem; 
+        background-color: transparent;
+    }
+    #menu-btn{margin-top: 0.5em;}
+    .logo{
+        display: none;
 
+    }
+    #small-logo{
+        display: block;
+        /* padding-left: 40px; */
+        ;
+
+    }
+    .header .logo img{height: 10em;
+    }
+    .header {background:none;
+    position: absolute;}
+    
+    
+    
+    
 }
